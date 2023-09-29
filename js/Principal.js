@@ -84,3 +84,4 @@ document.getElementById("formulario").addEventListener("submit", function (event
     // Muestra el mensaje en un pop-up
     alert("Datos introducidos:\n\n" + mensaje);
 });
+
