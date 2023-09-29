@@ -1,0 +1,113 @@
+body {
+    font-family: 'Pixelify Sans', cursive;
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #111;
+    padding: 20px;
+}
+
+.titulo {
+    font-size: 36px;
+}
+
+main {
+    padding: 20px;
+}
+
+.parrafo {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: #00aaff;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0088cc;
+}
+
+footer {
+    background-color: #111;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    font-size: 14px;
+}
+
+button {
+    background-color: #00aaff;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border-radius: 5px; /* Agrega bordes redondeados */
+    outline: none; /* Elimina el borde predeterminado al hacer clic */
+}
+
+button:hover {
+    background-color: #0088cc;
+}
+
+/* Estilo para el formulario */
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #00aaff;
+    border-radius: 10px;
+    background-color: rgba(0, 170, 255, 0.1);
+    display: flex;
+    flex-direction: column;
+}
+
+/* Estilo para los campos de entrada */
+.campo {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+/* Estilo para las etiquetas */
+.campo label {
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 5px;
+    color: #00aaff;
+}
+
+/* Estilo para los campos de entrada */
+.campo input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #00aaff;
+    border-radius: 5px;
+}
+
+/* Estilo para los mensajes de error */
+.error {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+
+
